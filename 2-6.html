@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background: url("images/58.png");
+            font-family:"微软雅黑"
+        }
+        ul{
+            list-style-type: none;
+        }
+        .header1{
+            width: 100%;
+        }
+        .header1 .left{
+            float: left;
+            width: 30%;
+            margin-left: 100px;
+        }
+        .header1 .right{
+
+            width: 100%;
+            margin-left: 100px;
+            margin-top: 50px;
+
+        }
+        .header1 .right-img{
+
+            font-size: 20px;
+            font-family: 微软雅黑;
+            line-height: 2px;
+            margin-left: 1400px;
+            margin-top: 10px;
+        }
+        .header1 .right-in{
+            width: 100%;
+            height: 35px;
+            padding-left: 300px;
+            margin-top: 20px;
+        }
+        .header1 .right-in li{
+            float: left;
+
+        }
+        .header1 .right-in li a{
+            float: left;
+            display: block;
+            font-family: 微软雅黑;
+            font-size: 30px;
+            font-style: italic;
+            line-height: 40px;
+            text-decoration: none;
+            padding: 0 40px;
+
+        }
+        .header1 .right-in li a:hover{
+            background-color: lightskyblue;
+            text-decoration: none;
+        }
+        .header1 a{
+            text-decoration: none;
+            color: black;
+        }
+        .header1 a:hover{
+            color: coral;
+            text-decoration: none;
+        }
+        .box ul, li {
+            list-style: none;
+        }
+        .box a {
+            text-decoration: none;
+            color: black;
+        }
+        .box {
+            width: 100%;
+            height: 470px;
+            overflow: hidden;
+            position: relative;
+            border: solid black 4px;
+        }
+        .box-1 ul li {
+            width: 100%;
+            height: 470px;
+            position: relative;
+            overflow: hidden;
+        }
+        .box-1 ul li img {
+            display: block;
+            width: 80%;
+            padding-left: 200px;
+            height: 470px;
+        }
+        .box-1 ul li h2 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 40px;
+            width: 150px;
+            border-radius: 0 20px 20px 0;
+            background: rgba(125, 125, 120, .3);
+            text-indent: 2em;
+            padding-right: 500px;
+            font-size: 15px;
+            line-height: 40px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-weight: normal;
+            color: ghostwhite
+
+        }
+        .box-2 {
+            position: absolute;
+            right: 10px;
+            bottom: 14px;
+
+        }
+        .box-2 ul li {
+            float: left;
+            width: 12px;
+            height: 12px;
+            overflow: hidden;
+            margin: 0 5px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.3);
+            text-indent: 100px;
+            cursor: pointer;
+        }
+        .box-2 ul .on {
+            background: rgba(255, 255, 255, 0.6);
+        }
+        .box-3 span {
+            position: absolute;
+            color: white;
+            background: rgba(125, 125, 120, .3);
+            width: 50px;
+            height: 80px;
+            top: 50%;
+            font-family: "宋体";
+            line-height: 80px;
+            font-size: 60px;
+            margin-top: -40px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .box-3 .prev {
+            left: 10px;
+        }
+        .box-3 .next {
+            right: 10px;
+        }
+        .box-3 span::selection {
+            background: transparent;
+        }
+        .box-3 span:hover {
+            background: rgba(125, 125, 120, .8);
+        }
+        #list img{
+            height: 200px;
+            width: 500px;
+        }
+        #list ul{
+            list-style-type:none;
+        }
+        #list li{
+            border: solid black 4px;
+            text-align: center;
+            padding:40px;
+            margin: 70px 30px 40px 50px;
+            float: left;
+        }
+        .footer1{
+            width: 100%;
+            height: 150px;
+            background-color: #545454;
+            padding-top: 30px;
+            text-align: center;
+            clear: both;
+            margin-top: 120px;
+        }
+        .footer p1{
+            line-height: 20px;
+            font-size: 20px;
+        }
+        span{
+            font-size: 30px;
+            font-family: 微软雅黑;
+            font-style: italic;
+        }
+    </style>
+    <script type="text/javascript" src="xiao.js"></script>
+</head>
+<body>
+
+    <div class="header1">
+        <div class="left"><img src="images/33.png" alt=""></div>
+        <div class="right">
+            <div class="right-img"><br><img src="images/54.png" alt=""><br><br><br><br><br><br> <br><a href="denglu.html">登录</a>|<a href="zhuce.html">注册</a></div>
+        </div>
+        <ul class="right-in">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="2-5.html">音乐室</a></li>
+            <li><a href="2-8.html">歌手</a></li>
+            <li><a href="2-6.html">音乐资讯</a></li>
+            <li><a href="2-7.html">我的音乐</a></li>
+        </ul>
+        <div class="box">
+            <div class="box-1">
+                <ul>
+                    <li>
+                        <img src="/web前端/60.jpg" alt="">
+                        <h2>1</h2>
+                    </li>
+                    <li>
+                        <img src="/web前端/61.jpg" alt="">
+                        <h2>2</h2>
+                    </li>
+                    <li>
+                        <img src="/web前端/62.jpg" alt="">
+                        <h2>3</h2>
+                    </li>
+                    <li>
+                        <img src="/web前端/63.jpg" alt="">
+                        <h2>4</h2>
+                    </li>
+                    <li>
+                        <img src="/web前端/64.jpg" alt="">
+                        <h2>5</h2>
+                    </li>
+                </ul>
+            </div>
+        <div class="box-2">
+            <ul>
+
+            </ul>
+        </div>
+        <div class="box-3">
+            <span class="prev"> < </span>
+            <span class="next"> > </span>
+        </div>
+    </div>
+</div>
+<div id="list">
+    <span>独家放送</span>
+    <u1>
+        <li><img src="/web前端/80.png" alt="1"><br>超级面对面 "抬棺神曲"毁掉的Vicetone</li>
+        <li><img src="/web前端/81.png" alt="2"><br>一周速报 EP15 不想睡的夏天 我们去恋爱吧</li>
+        <li><img src="/web前端/82.png" alt="1"><br>FOCUS跟拍KnowKnow十二时辰 呈现最劲爆的说唱现场</li>
+        <li><img src="/web前端/83.png" alt="2"><br>今日营业中 有毒！慎入！bhons￥的异想世界 </li>
+        <li><img src="/web前端/84.png" alt="2"><br>今日营业中 J.Balvin:红遍全球的西语天王了解一下 </li>
+        <li><img src="/web前端/85.png" alt="1"><br>今日营业中 电音大神艾佛杰克</li>
+    </u1>
+</div>
+
+<div class="footer1">
+    <p>更多
+        <br>
+        <br>分类找歌|帮助中心|添加资料|提交专辑
+        <br>音频上传|添加歌调
+        <br>
+        <br>
+        违法和不良信息举报电话：123456789 | 举报邮箱：1234465@qq.com
+    </p>
+</div>
+</body>
+</html>

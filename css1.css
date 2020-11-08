@@ -1,0 +1,457 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url("images/58.png");
+    font-family:"微软雅黑"
+}
+ul{
+    list-style-type: none;
+}
+.header1{
+    width: 100%;
+}
+.header1 .left{
+    float: left;
+    width: 30%;
+    margin-left: 100px;
+}
+.header1 .right{
+
+     width: 1500px;
+     margin-left: 100px;
+     margin-top: 50px;
+
+}
+.header1 .right-img{
+
+    font-size: 20px;
+    font-family: 微软雅黑;
+    line-height: 2px;
+    margin-left: 1400px;
+    margin-top: 10px;
+}
+.header1 .right-in{
+    width: 70%;
+    height: 35px;
+    padding-left: 300px;
+    margin-top: 20px;
+}
+.header1 .right-in li{
+    float: left;
+
+}
+.header1 .right-in li a{
+    float: left;
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 40px;
+
+}
+.header1 .right-in li a:hover{
+    background-color: lightskyblue;
+    text-decoration: none;
+}
+.header1 a{
+    text-decoration: none;
+    color: black;
+}
+.header1 a:hover{
+    color: coral;
+    text-decoration: none;
+}
+.nav-{
+    width: 100%;
+    margin-top: 20px;
+}
+.nav- .nav1-left{
+    position:absolute;
+    float: left;
+    width: 30%;
+    height: 50px;
+    margin-top: 45px;
+    border:solid black 4px;
+    border-right: none;
+}
+.nav- .nav1-left p{
+    text-align: center;
+    padding-top: 10px;
+}
+.nav- .nav1-right{
+    float: right;
+    width: 70%;
+    height: 50px;
+    margin-top: 20px;
+    border: solid black 4px;
+    border-bottom: none;
+}
+
+.nav- .nav1-right li{
+    float: left;
+    padding-left: 80px;
+}
+.nav- .nav1-right li a{
+    float: left;
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    padding: 0 50px;
+}
+.nav- .nav1-right li a:hover{
+    color: coral;
+    text-decoration: none;
+}
+.nav- .nav2-left{
+    padding-top: 78px;
+    margin-top:25px ;
+    position: absolute;
+    background-size: cover;
+    float: left;
+    width: 30%;
+    height: 400px;
+   border-bottom: solid black 4px;
+}
+.nav- .nav2-right{
+    margin-top: 0 auto;
+    float: right;
+   
+    background-size: cover;
+    width: 70%;
+    height: 400px;
+    border: solid black 4px;
+    overflow: hidden;
+}
+.banner1{
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 80px;
+}
+.banner1-left{
+    width: 30%;
+   margin-top: 0px;
+    position: absolute;
+
+    float: left;
+    border:solid black 4px;
+
+}
+.banner1-left p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+.banner1-right{
+    width: 70%;
+    float: right;
+    height: 67px;
+
+    overflow: hidden;
+    border:solid black 4px;
+    border-left: none;
+}
+.banner1-right li{
+    padding-top: 25px;
+    float: left;
+    padding-left: 80px;
+    font-family: 微软雅黑;
+    font-size: 20px;
+}
+.banner1-right li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 50px;
+    color: black;
+
+}
+.banner1-right li a:hover{
+    text-decoration: none;
+    color: palegreen;
+}
+.background{
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+}
+.background .ban1{
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-size: cover;
+}
+.background .implant1{
+    position: absolute;
+    left:100px;
+    top:100px;
+    width: 350px;
+    height: 270px;
+    z-index: 2;
+    background-color: whitesmoke;
+    border: solid black 4px;
+}
+.background .implant2{
+    position: absolute;
+    left:600px;
+    top:100px;
+    width: 350px;
+    height: 270px;
+    z-index: 2;
+    background-color: whitesmoke;
+    border: solid black 4px;
+}
+.background .implant3{
+    position: absolute;
+    left:100px;
+    top:400px;
+    width: 350px;
+    height: 270px;
+    z-index: 2;
+    background-color:whitesmoke;
+    border: solid black 4px;
+}
+.background .implant4{
+    position: absolute;
+    left:600px;
+    top:400px;
+    width: 350px;
+    height: 270px;
+    z-index: 2;
+    background-color: whitesmoke;
+    border: solid black 4px;
+}
+.background .implant5{
+    position: absolute;
+    left: 1100px;
+    top:150px;
+    width: 60px;
+    height: 380px;
+    z-index: 2;
+    background-color: snow;
+    font-family: 微软雅黑;
+    border:black solid 4px;
+    padding: 10px;
+    font-size:40px;
+    text-align:center;
+    line-height:150%;
+}
+.background p{
+    font-size: 20px;
+    font-family: 微软雅黑;
+    text-align: center;
+    padding: 5px;
+}
+.background .implant1-1{
+    position: absolute;
+    z-index: 3;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+.background .implant1-2{
+    position: absolute;
+    z-index: 3;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+.background .implant1-3{
+    position: absolute;
+    z-index: 3;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+.background .implant1-4{
+    position: absolute;
+    z-index: 3;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+.content1{
+    width: 100%;
+    overflow: hidden;
+    margin:20px auto 40px;
+}
+.content1-left{
+    width: 30%;
+    float: left;
+}
+.content1-left li{
+    padding-top: 100px;
+    float: right;
+}
+.content1-left li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+}
+.content1-left li a:hover{
+    text-decoration: none;
+    color: cadetblue;
+}
+/*.content1 h2{*/
+    /*font-size: 20px;*/
+    /*line-height: 25px;*/
+    /*margin-left: 200px;*/
+    /*padding-top: 100px;*/
+/*}*/
+.content1-right{
+    width: 70%;
+    float: right;
+    margin:20px auto 40px;
+}
+.content1-right li{
+    padding-top: 100px;
+    float: left;
+    padding-left: 80px;
+}
+.content1-right li a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 50px;
+    color: black;
+    font-style: italic;
+}
+.content1-right li a:hover{
+    text-decoration: none;
+    color: palegreen;
+}
+.slides{
+    padding:0;
+    width:609px;
+    height:420px;
+    display:block;
+    margin:0 auto;
+    position:relative;
+}
+
+.slides *{
+    user-select:none;
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+}
+
+.slides input{display:none;}
+
+.slide-container{display:block;}
+
+.slide{
+    top:0;
+    opacity:0;
+    width:609px;
+    height:420px;
+    display:block;
+    position:absolute;
+
+    transform:scale(0);
+
+    transition:all .7s ease-in-out;
+}
+
+.slide img{
+    width:100%;
+    height:100%;
+    border: solid black 8px;
+}
+
+.nav label{
+    width:200px;
+    height:100%;
+    display:none;
+    position:absolute;
+    opacity:0;
+    z-index:9;
+    cursor:pointer;
+
+    transition:opacity .2s;
+
+    color:#FFF;
+    font-size:156pt;
+    text-align:center;
+    line-height:380px;
+    font-family:"Varela Round", sans-serif;
+    background-color:rgba(255, 255, 255, .3);
+    text-shadow:0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label{opacity:0.5;}
+
+.nav label:hover{opacity:1;}
+
+.nav .next{right:0;}
+
+input:checked + .slide-container  .slide{
+    opacity:1;
+
+    transform:scale(1);
+
+    transition:opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label{display:block;}
+
+.nav-dots{
+    width:100%;
+    bottom:9px;
+    height:11px;
+    display:block;
+    position:absolute;
+    text-align:center;
+}
+
+.nav-dots .nav-dot{
+    top:-5px;
+    width:11px;
+    height:11px;
+    margin:0 4px;
+    position:relative;
+    border-radius:100%;
+    display:inline-block;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover{
+    cursor:pointer;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6{
+    background:rgba(0, 0, 0, 0.8);
+}
+
+.footer1{
+    width: 100%;
+    height: 150px;
+    background-color: #545454;
+    padding-top: 30px;
+    text-align: center;
+    clear: both;
+    margin-top: 120px;
+}
+.footer p1{
+    line-height: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            background: url("images/58.png");
+            font-family:"微软雅黑"}
+        ul{
+            list-style-type: none;
+        }
+        .header1{
+            width: 100%;
+        }
+        .header1 .left{
+            float: left;
+            width: 30%;
+            margin-left: 100px;
+        }
+        .header1 .right{
+
+            width: 100%;
+            margin-left: 100px;
+            margin-top: 50px;
+
+        }
+        .header1 .right-img{
+
+            font-size: 20px;
+            font-family: 微软雅黑;
+            line-height: 2px;
+            margin-left: 1400px;
+            margin-top: 10px;
+        }
+        .header1 .right-in{
+            width: 100%;
+            height: 35px;
+            padding-left: 300px;
+            margin-top: 20px;
+        }
+        .header1 .right-in li{
+            float: left;
+
+        }
+        .header1 .right-in li a{
+            float: left;
+            display: block;
+            font-family: 微软雅黑;
+            font-size: 30px;
+            font-style: italic;
+            line-height: 40px;
+            text-decoration: none;
+            padding: 0 40px;
+
+        }
+        .header1 .right-in li a:hover{
+            background-color: lightskyblue;
+            text-decoration: none;
+        }
+        .header1 a{
+            text-decoration: none;
+            color: black;
+        }
+        .header1 a:hover{
+            color: coral;
+            text-decoration: none;
+        }
+        .center{text-align: center;}
+        .login-page {
+            width: 360px;
+            padding: 8% 0 0;
+            margin: auto;
+        }
+        .form {
+            position: relative;
+            z-index: 1;
+            background: #FFFFFF;
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 45px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+        .form input {
+            font-family: "Roboto", sans-serif;
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        .form button {
+            font-family: "Microsoft YaHei","Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background: rebeccapurple;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+
+            cursor: pointer;
+        }
+        .form button:hover,.form button:active,.form button:focus {
+            background: rebeccapurple;
+        }
+        .form .message {
+            margin: 15px 0 0;
+            color: #b3b3b3;
+            font-size: 12px;
+        }
+        .form .message a {
+            color: rebeccapurple;
+            text-decoration: none;
+        }
+        .form .register-form {
+            display: none;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        .container:before, .container:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .container .info {
+            margin: 50px auto;
+            text-align: center;
+        }
+        .container .info h1 {
+            margin: 0 0 15px;
+            padding: 0;
+            font-size: 36px;
+            font-weight: 300;
+            color: #1a1a1a;
+        }
+        .container .info span {
+            color: #4d4d4d;
+            font-size: 12px;
+        }
+        .container .info span a {
+            color: #000000;
+            text-decoration: none;
+        }
+        .container .info span .fa {
+            color: rebeccapurple;
+        }
+        .footer1{
+            width: 100%;
+            height: 150px;
+            background-color: #545454;
+            padding-top: 30px;
+            text-align: center;
+            clear: both;
+            margin-top: 120px;
+        }
+        .footer p1{
+            line-height: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="header1">
+    <div class="left"><img src="/web前端/33.png" alt=""></div>
+    <div class="right">
+        <div class="right-img"><br><img src="/web前端/54.png" alt=""><br><br><br><br><br><br> <br><a href="#">登录</a>|<a href="#">注册</a></div>
+    </div>
+    <ul class="right-in">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="2-5.html">音乐室</a></li>
+        <li><a href="2-8.html">歌手</a></li>
+        <li><a href="2-6.html">音乐资讯</a></li>
+        <li><a href="2-7.html">我的音乐</a></li>
+    </ul>
+    <div class="htmleaf-container">
+        <div id="wrapper" class="login-page">
+            <div id="login_form" class="form">
+                <form class="register-form">
+                    <input type="text" placeholder="用户名" id="r_user_name"/>
+                    <input type="password" placeholder="密码" id="r_password" />
+                    <input type="text" placeholder="电子邮件" id="r_emial"/>
+                    <button id="create">创建账户</button>
+                    <p class="message">已经有了一个账户? <a href="#">立刻登录</a></p>
+                </form>
+                <form class="login-form">
+                    <input type="text" placeholder="输入新用户名" id="user_name"/>
+                    <input type="password" placeholder="密码" id="password"/>
+
+                    <button id="login">登 录</button>
+                    <p class="message">还没有账户? <a href="zhuce.html">立刻注册</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="footer1">
+    <p>更多
+        <br>
+        <br>分类找歌|帮助中心|添加资料|提交专辑
+        <br>音频上传|添加歌调
+        <br>
+        <br>
+        违法和不良信息举报电话：123456789 | 举报邮箱：1234465@qq.com
+    </p>
+</div>
+</body>
+</html>

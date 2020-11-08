@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background: url("images/58.png");
+            font-family:"微软雅黑"
+        }
+        ul{
+            list-style-type: none;
+        }
+        .header1{
+            width: 100%;
+        }
+        .header1 .left{
+            float: left;
+            width: 30%;
+            margin-left: 100px;
+        }
+        .header1 .right{
+
+            width: 100%;
+            margin-left: 100px;
+            margin-top: 50px;
+
+        }
+        .header1 .right-img{
+
+            font-size: 20px;
+            font-family: 微软雅黑;
+            line-height: 2px;
+            margin-left: 1400px;
+            margin-top: 10px;
+        }
+        .header1 .right-in{
+            width: 100%;
+            height: 35px;
+            padding-left: 300px;
+            margin-top: 20px;
+        }
+        .header1 .right-in li{
+            float: left;
+
+        }
+        .header1 .right-in li a{
+            float: left;
+            display: block;
+            font-family: 微软雅黑;
+            font-size: 30px;
+            font-style: italic;
+            line-height: 40px;
+            text-decoration: none;
+            padding: 0 40px;
+
+        }
+        .header1 .right-in li a:hover{
+            background-color: lightskyblue;
+            text-decoration: none;
+        }
+        .header1 a{
+            text-decoration: none;
+            color: black;
+        }
+        .header1 a:hover{
+            color: coral;
+            text-decoration: none;
+        }
+        .box ul, li {
+            list-style: none;
+        }
+        .box a {
+            text-decoration: none;
+            color: black;
+        }
+        .box {
+            width: 100%;
+            height: 470px;
+            overflow: hidden;
+            position: relative;
+            border: solid black 4px;
+        }
+        .box-1 ul li {
+            width: 100%;
+            height: 470px;
+            position: relative;
+            overflow: hidden;
+        }
+        .box-1 ul li img {
+            display: block;
+            width: 80%;
+            height: 470px;
+            padding-left: 200px;
+        }
+        .box-1 ul li h2 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 40px;
+            width: 150px;
+            border-radius: 0 20px 20px 0;
+            background: rgba(125, 125, 120, .3);
+            text-indent: 2em;
+            padding-right: 500px;
+            font-size: 15px;
+            line-height: 40px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-weight: normal;
+            color: ghostwhite
+
+        }
+        .box-2 {
+            position: absolute;
+            right: 10px;
+            bottom: 14px;
+
+        }
+        .box-2 ul li {
+            float: left;
+            width: 12px;
+            height: 12px;
+            overflow: hidden;
+            margin: 0 5px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.3);
+            text-indent: 100px;
+            cursor: pointer;
+        }
+        .box-2 ul .on {
+            background: rgba(255, 255, 255, 0.6);
+        }
+        .box-3 span {
+            position: absolute;
+            color: white;
+            background: rgba(125, 125, 120, .3);
+            width: 50px;
+            height: 80px;
+            top: 50%;
+            font-family: "宋体";
+            line-height: 80px;
+            font-size: 60px;
+            margin-top: -40px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .box-3 .prev {
+            left: 10px;
+        }
+        .box-3 .next {
+            right: 10px;
+        }
+        .box-3 span::selection {
+            background: transparent;
+        }
+        .box-3 span:hover {
+            background: rgba(125, 125, 120, .8);
+        }
+        #list{
+            margin: 0 auto;
+            padding: 50px 0px;
+            width: 1500px;
+            height:270px;
+
+        }
+        #list img{
+            height: 200px;
+            width: 200px;
+            float: right;
+        }
+        #list ul{
+            list-style-type:none;
+        }
+        #list li{
+            border: solid black 4px;
+            text-align: center;
+            padding:40px;
+            margin: 70px 30px 40px 50px;
+            float: left;
+        }
+        .footer1{
+            width: 100%;
+            height: 150px;
+            background-color: #545454;
+            padding-top: 30px;
+            text-align: center;
+            clear: both;
+            margin-top: 120px;
+        }
+        .footer p1{
+            line-height: 20px;
+            font-size: 20px;
+        }
+        span{
+            font-size: 30px;
+            font-family: 微软雅黑;
+            font-style: italic;
+        }
+    </style>
+    <script type="text/javascript" src="xiao.js"></script>
+</head>
+<body>
+
+    <div class="header1">
+        <div class="left"><img src="images/33.png" alt=""></div>
+        <div class="right">
+            <div class="right-img"><br><img src="images/54.png" alt=""><br><br><br><br><br><br> <br><a href="denglu.html">登录</a>|<a href="zhuce.html">注册</a></div>
+        </div>
+        <ul class="right-in">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="2-5.html">音乐室</a></li>
+            <li><a href="2-8.html">歌手</a></li>
+            <li><a href="2-6.html">音乐资讯</a></li>
+            <li><a href="2-7.html">我的音乐</a></li>
+        </ul>
+        <div class="box">
+            <div class="box-1">
+                <ul>
+                    <li>
+                        <img src="/web前端/60.jpg" alt="">
+                        <h2>1</h2>
+                    </li>
+                    <li>
+                        <img src="/web前端/61.jpg" alt="">
+                        <h2>2</h2>
+                    </li>
+                    <li>
+                        <img src="/web前端/62.jpg" alt="">
+                        <h2>3</h2>
+                    </li>
+                    <li>
+                        <img src="/web前端/63.jpg" alt="">
+                        <h2>4</h2>
+                    </li>
+                    <li>
+                        <img src="/web前端/64.jpg" alt="">
+                        <h2>5</h2>
+                    </li>
+                </ul>
+            </div>
+        <div class="box-2">
+            <ul>
+
+            </ul>
+        </div>
+        <div class="box-3">
+            <span class="prev"> < </span>
+            <span class="next"> > </span>
+        </div>
+    </div>
+</div>
+<div id="list">
+    <span>歌手</span>
+    <u1>
+        <li><img src="/web前端/90.png" alt="1"><br>隔壁老樊，本名樊凯杰 [1]  ，1998年11月2日出生于河北省承德市，中国内地唱作人 [2]  。
+            2018年11月，发表首支原创单曲《姬和不如》 [3]  ，由此正式进入演艺圈；12月，发布单曲《世本常态》 [4]  ；2018年12月27日，报名参加湖南卫视音乐竞技节目《歌手2019》，并通过了导演组的试音 [3]  。2019年2月，发行歌曲《我曾》，该作品获得网易音乐第一季度音乐榜单前三名 [5]  ；3月，发行歌曲《多想在平庸的生活拥抱你》 [6]  ；4月，为电影《雪暴》演唱的同名主题曲发布 [7]  ；6月23日，发行专辑《得不到你》； [8]  7月24日，发行专辑《如谁所愿》 ； [9]  8月16日，发行专辑《这一生关于你的风景》； [10]  9月11日，发行专辑《敬长安》 ； [11]  10月1日，发行专辑《我和我的祖国》 ； [12]  10月31日，发行专辑《初秋和你》。 [13]
+            2020年2月21日，参加湖南卫视音乐竞技节目《歌手·当打之年》，作为第三期的奇袭歌手演唱《多想在平庸的生活拥抱你》。 [14] <>
+        <li><img src="/web前端/91.png" alt="2"><br>薛之谦（Joker Xue），1983年7月17日出生于上海，中国内地流行乐男歌手、影视演员、音乐制作人，毕业于格里昂酒店管理学院。
+            2005年，因参加选秀节目《我型我秀》而正式出道 [1]  。2006年，发行首张同名专辑《薛之谦》，随后凭借歌曲《认真的雪》获得广泛关注 [2-3]  。2007年，凭借专辑《你过得好吗》获得MusicRadio中国TOP排行榜内地年度最受欢迎男歌手奖。2008年，发行专辑《深深爱过你》，同年在上海举行个人首场演唱会“谦年传说” [4-5]  。2013年，专辑《几个薛之谦》获得MusicRadio中国TOP排行榜内地推荐唱片 [6]  。2014年，凭借专辑《意外》获得第21届东方风云榜颁奖最佳唱作人 [7]  ；同年他还获得音悦V榜年度盛典年度创作歌手奖 [8]  。
+            2015年6月，薛之谦首度担当制作人并发行原创EP《绅士》 [9]  ；同年，他还主演都市励志剧《妈妈像花儿一样》 [10]  。2016年，凭借EP《绅士》、《一半》获得第16届全球华语歌曲排行榜最受欢迎男歌手、五大最受欢迎男歌手奖、上海地区杰出歌手奖及最受欢迎创作歌手奖，而歌曲《初学者》则获得年度二十大金曲奖 [11-12]  。2017年4月，开启“我好像在哪见过你”全国巡回演唱会 [13]  ；同年，薛之谦获得第7届全球流行音乐年度盛典年度最佳男歌手及MusicRadio榜中国TOP排行榜内地最佳男歌手 [14-15]  。
+            2018年7月，薛之谦“摩天大楼”世界巡回演唱会于北京站启程，整个巡演横跨4大洲，8个国家，21个城市，累计上演场次23场 [16]  。<>
+        <li><img src="/web前端/92.png" alt="1"><br>陈奕迅（Eason Chan），1974年7月27日出生于中国香港，祖籍广东省东莞市，中国香港流行乐男歌手、演员，毕业于英国金斯顿大学。
+            1995年参加第14届新秀歌唱大赛并获得冠军，同年正式出道。1996年发行个人首张专辑《陈奕迅》。1997年主演个人首部电影《旺角大家姐》。1998年凭借歌曲《天下无双》在乐坛获得关注。2000年发行的歌曲《K歌之王》奠定其在歌坛的地位 [1]  。2001年发行流行摇滚风格的专辑《反正是我》。2003年发行个人首张概念专辑《黑·白·灰》，专辑中的歌曲《十年》获得第4届百事音乐风云榜十大金曲奖 [2]  。
+            2005年发行粤语专辑《U87》，专辑中的歌曲《浮夸》成为其歌唱生涯的代表作品之一。2006年起，连续9年获得叱咤乐坛流行榜颁奖典礼叱咤乐坛我最喜爱的男歌手奖 [3]  。2008年1月获得十大劲歌金曲“最受欢迎男歌星奖” [4]  。2010年凭借剧情片《金钱帝国》获得星光大典港台年度电影男演员奖 [5]  。2012年发行舞曲风格的粤语专辑《…3mm》。2015年凭借专辑《米·闪》获得第26届台湾金曲奖最佳国语男歌手奖 [6]  。2016年举行“Another Eason's LIFE世界巡回演唱会” [7]  。2017年发行国语专辑《C'mon in~》 [8]  。2018年发行专辑《L.O.V.E.》。 [9]<>
+        <li><img src="/web前端/93.png" alt="2"><br>李荣浩（Ronghao Li），1985年7月11日出生于安徽省蚌埠市，中国内地流行乐男歌手、词曲创作人、音乐制作人、演员。2010年，发行首张个人音乐EP《小黄》。2013年，发行个人首张音乐专辑《模特》，凭该专辑成为首位获得“台湾金曲奖最佳新人奖”的中国大陆歌手。2014年，发行个人同名音乐专辑《李荣浩》，凭该专辑获得中国TOP排行榜内地年度最佳男歌手奖。2016年，发行个人音乐专辑《有理想》 .. <>
+        <li><img src="/web前端/94.png" alt="2"><br>毛不易，原名王维家，1994年10月1日出生于黑龙江省齐齐哈尔市泰来县，中国内地流行乐男歌手，毕业于杭州师范大学护理专业。
+            2017年，参加腾讯视频选秀娱乐节目《明日之子》，获得全国总决赛冠军，从而正式进入演艺圈 [1]  ；11月11日，推出个人原创单曲《项羽虞姬》 [2]  ；12月28日，获得腾讯娱乐白皮书音乐年度之星奖 [3]  。2018年1月7日，获得首届金鲛奖年度十佳网络新星奖 [4]  ；4月，作为“无限唱作人”参加江苏卫视音乐唱作类真人秀节目《无限歌谣季》 [5]  ；5月31日，推出首张个人录音室专辑《平凡的一天》 [6]  ；同年，获得亚洲新歌榜年度盛典年度最佳音乐人奖 [7]  、亚洲音乐盛典最具潜力男歌手奖、年度最佳唱作人奖 [8]  。2019年3月25日，其演唱的歌曲《平凡的一天》获得第26届东方风云榜音乐盛典十大金曲奖、最佳作词奖 [9]  ；8月，获2019福布斯中国100名人榜荣誉 [10]  。2020年1月，以首发歌手身份加盟湖南卫视音乐竞技节目《歌手·当打之年》 [11]  ；1月22日，推出第2张个人音乐专辑《小王》 [12]  。 <>
+        <li><img src="/web前端/95.png" alt="1"><br>XXXTentacion（1998年1月23日—2018年6月18日），本名杰塞·德怀恩·奥弗洛（Jahseh Dwayne Onfroy），出生于美国佛罗里达州普兰塔寻，美国说唱歌手、词曲作者。
+            2013年，在网上发布个人第一首歌曲《News/Flock》 [1]  。2014年，首次以“XXXTentacion”为艺名发布歌曲《Vice City》，从而开始说唱生涯。2016年，因抢劫和持有致命武器而被指控 [2]  。2017年，个人单曲《Look at Me！》登上美国公告牌百强单曲榜，XXXTentacion因此获得关注 [3]  ；8月，发行首张个人录音室专辑《17》，该专辑入围了第25届公告牌音乐奖最佳R&B专辑奖 [4]  。2018年3月，发行第二张个人录音室专辑《？》，获得公告牌专辑榜冠军 [5]  。
+            2018年6月18日，XXXTentacion在美国迈阿密被枪杀身亡，年仅20岁 [6]  。年底，第三张录音室专辑《SKINS》发行 [7]  。<>
+        <li><img src="/web前端/96.png" alt="1"><br>周杰伦（Jay Chou），1979年1月18日出生于台湾省新北市，祖籍福建省泉州市永春县，中国台湾流行乐男歌手、原创音乐人、演员、导演等，毕业于淡江中学。
+            2000年发行首张个人专辑《Jay》。2001年发行的专辑《范特西》奠定其融合中西方音乐的风格 [1]  。2002年举行“The One”世界巡回演唱会 [2]  。2003年成为美国《时代周刊》封面人物 [3-4]  。2004年获得世界音乐大奖中国区最畅销艺人奖 [5]  。2005年凭借动作片《头文字D》获得台湾电影金马奖、香港电影金像奖最佳新人奖 [6]  。2006年起连续三年获得世界音乐大奖中国区最畅销艺人奖 [7]  。2007年自编自导的文艺片《不能说的秘密》获得台湾电影金马奖年度台湾杰出电影奖 [8]  。
+            2008年凭借歌曲《青花瓷》获得第19届金曲奖最佳作曲人奖。2009年入选美国CNN评出的“25位亚洲最具影响力的人物” [9]  ，同年获得第20届金曲奖最佳国语男歌手奖 [10]  。2010年入选美国《Fast Company》评出的“全球百大创意人物” [11]  。2011年再度获得金曲奖最佳国语男歌手奖，并且第4次获得金曲奖最佳国语专辑奖；同年主演好莱坞电影《青蜂侠》 [12]  。2012年登福布斯中国名人榜榜首 [13]  。2014年发行华语乐坛首张数字音乐专辑《哎呦，不错哦》 [14]  。2019年起举行“嘉年华”世界巡回演唱会 [15]  。<>
+
+    </u1>
+</div>
+
+
+
+<div class="footer1">
+    <p>更多
+        <br>
+        <br>分类找歌|帮助中心|添加资料|提交专辑
+        <br>音频上传|添加歌调
+        <br>
+        <br>
+        违法和不良信息举报电话：123456789 | 举报邮箱：1234465@qq.com
+    </p>
+</div>
+</body>
+</html>
